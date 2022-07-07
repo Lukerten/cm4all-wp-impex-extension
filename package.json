@@ -1,15 +1,20 @@
 {
   "name": "cm4all-wp-impex-extension",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Plugin Extension for the cm4all-wp-impex Plugin. Import entire Elementor Sites to the Gutenberg Editor ",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    
+    "wp-env": "scripts/wp-env/wp-env.sh",
+    "wp-env:setup": "scripts/wp-env/wp-env-setup.sh",
+    "wp-env:cleanup": "scripts/wp-env/wp-env-cleanup.sh"
   },
   "repository": {
     "type": "git",
-    "url": "/projects/CM4All/cm4all-wp-impex-extension/.git"
+    "url": "https://github.com/Lukerten/cm4all-wp-impex-extension.git"
   },
   "author": "Luke Brendgen",
-  "license": "Unlicense"
+  "license": "Unlicense",
+  "dependencies": {
+    "@wordpress/scripts": "^23.4.0"
+  }
 }

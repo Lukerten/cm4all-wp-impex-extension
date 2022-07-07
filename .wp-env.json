@@ -1,0 +1,16 @@
+{
+  "core": "WordPress/WordPress#6.0",
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/gutenberg.zip",
+    "https://downloads.wordpress.org/plugin/cm4all-wp-impex.zip",
+    "./plugins/cm4all-wp-impex-example",
+    "./plugins/cm4all-wp-impex-extension"
+  ],
+  "phpVersion": "8.0",
+  "config": {
+    "WP_DEBUG": true,
+    "SCRIPT_DEBUG": true,
+    "WP_DEBUG_LOG": true,
+    "FS_METHOD": "direct"
+  }
+}
