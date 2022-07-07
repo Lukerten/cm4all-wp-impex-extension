@@ -1,0 +1,16 @@
+{
+  "php.suggest.basic": false,
+  "editor.quickSuggestions": {"comments": true},
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "todohighlight.keywords": ["XXX:"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.codeActionsOnSave.mode": "problems",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "phpcs.standard": "WordPress",
+  "phpsab.standard": "WordPress"
+}

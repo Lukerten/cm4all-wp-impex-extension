@@ -1,0 +1,8 @@
+/deps
+/wordpress
+dist
+build
+vendor
+/packages/wordpress/wp-content/themes/trinity-core/inc/starter-content/
+/wp-env-home
+/packages/wordpress/wp-content/plugins/cm4all-wordpress/curator/cooperator/tests
