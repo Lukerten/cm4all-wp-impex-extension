@@ -1,6 +1,6 @@
 {
   "php.suggest.basic": false,
-  "editor.quickSuggestions": {"comments": true},
+  "editor.quickSuggestions": { "comments": true },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "todohighlight.keywords": ["XXX:"],
@@ -12,5 +12,11 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "phpcs.standard": "WordPress",
-  "phpsab.standard": "WordPress"
+  "phpsab.standard": "WordPress",
+  "[sql]": {
+    "editor.defaultFormatter": "ms-mssql.mssql"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
 }

@@ -7,3 +7,4 @@ vendor
 /wp-env-home
 /packages/wordpress/wp-content/plugins/cm4all-wordpress/curator/cooperator/tests
 wp-env.override.json
+plan.md
