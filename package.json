@@ -15,6 +15,7 @@
   "author": "Luke Brendgen",
   "license": "Unlicense",
   "dependencies": {
+    "@wordpress/env": "^4.9.0",
     "@wordpress/scripts": "^23.4.0"
   }
 }

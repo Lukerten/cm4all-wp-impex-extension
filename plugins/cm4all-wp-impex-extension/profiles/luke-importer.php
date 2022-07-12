@@ -4,8 +4,8 @@ namespace cm4all\wp\impex;
 
 defined('ABSPATH') or die("Cannot access file like this");
 
-$profile = Impex::getInstance()->Import->addProfile('test');
-$profile->setDescription('test Profile mirroring the base profile');
+$profile = Impex::getInstance()->Import->addProfile(`Luke's Import Profile`);
+$profile->setDescription('Working Profile to Test importing options');
 
 $provider = null;
 

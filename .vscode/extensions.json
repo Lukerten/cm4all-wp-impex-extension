@@ -10,6 +10,7 @@
     "folke.vscode-monorepo-workspace",
     "wayou.vscode-todo-highlight",
     "xdebug.php-debug",
-    "timonwong.shellcheck"
+    "timonwong.shellcheck",
+    "formulahendry.vscode-mysql"
   ]
 }
