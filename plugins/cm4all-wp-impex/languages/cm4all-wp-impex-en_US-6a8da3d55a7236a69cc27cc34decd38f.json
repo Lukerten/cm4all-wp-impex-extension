@@ -1,0 +1,111 @@
+{
+    "translation-revision-date": "YEAR-MO-DA HO:MI+ZONE",
+    "generator": "WP-CLI\/2.6.0",
+    "source": "dist\/wp.impex.dashboard.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Export": [
+                "(en_US) Export"
+            ],
+            "Import": [
+                "(en_US) Import"
+            ],
+            "Name": [
+                ""
+            ],
+            "Name should be short and human readable": [
+                ""
+            ],
+            "Description": [
+                ""
+            ],
+            "Description may contain more expressive information describing the item": [
+                ""
+            ],
+            "Creating snapshot": [
+                ""
+            ],
+            "Downloading snapshot": [
+                ""
+            ],
+            "Create snapshot": [
+                ""
+            ],
+            "Export Profile": [
+                "(en_US) Export Profile"
+            ],
+            "Select an Export profile": [
+                "(en_US) Select an Export profile"
+            ],
+            "Export profiles define which WordPress data should be extracted to the snapshot": [
+                ""
+            ],
+            "Create Snapshot": [
+                ""
+            ],
+            "Download snapshot": [
+                ""
+            ],
+            "Additional actions on this export": [
+                ""
+            ],
+            "Edit": [
+                ""
+            ],
+            "Edit export": [
+                "(en_US) Export"
+            ],
+            "Delete": [
+                ""
+            ],
+            "Delete export": [
+                ""
+            ],
+            "Importing data into WordPress ...": [
+                ""
+            ],
+            "Uploading snapshot": [
+                ""
+            ],
+            "Upload snapshot to Wordpress": [
+                ""
+            ],
+            "Import Profile": [
+                "(en_US) Export Profile"
+            ],
+            "Select an Import profile": [
+                "(en_US) Select an Export profile"
+            ],
+            "Import profiles define which WordPress data should be consumed from the snapshot": [
+                ""
+            ],
+            "Upload snapshot": [
+                ""
+            ],
+            "Import uploaded snapshot": [
+                ""
+            ],
+            "Additional actions on this import": [
+                ""
+            ],
+            "Edit import snapshot": [
+                ""
+            ],
+            "Delete import": [
+                ""
+            ],
+            "Are you really sure to delete import": [
+                ""
+            ],
+            "Impex": [
+                ""
+            ]
+        }
+    }
+}

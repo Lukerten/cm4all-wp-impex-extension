@@ -1,2 +1,6 @@
 wp-env-home*
 node_modules
+.wp-env.override.json
+
+
+
