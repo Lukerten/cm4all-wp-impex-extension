@@ -19,6 +19,6 @@ if (!defined('ABSPATH')) {
 }
 
 \add_action('cm4all_wp_impex_register_profiles', function () {
-    require_once __DIR__ . '/profiles/luke-exporter.php';
-    require_once __DIR__ . '/profiles/luke-exporter.php';
+    require_once __DIR__ . '/inc/profiles/luke-exporter.php';
+    require_once __DIR__ . '/inc/profiles/luke-importer.php';
 });

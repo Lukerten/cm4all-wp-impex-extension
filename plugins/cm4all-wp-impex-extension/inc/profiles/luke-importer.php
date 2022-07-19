@@ -4,13 +4,15 @@ namespace cm4all\wp\impex;
 
 defined('ABSPATH') or die("Cannot access file like this");
 
-$profile = Impex::getInstance()->Import->addProfile(`Luke's Import Profile`);
-$profile->setDescription('Working Profile to Test importing options');
+$profile = Impex::getInstance()->Import->addProfile("Import only Pages");
+$profile->setDescription('wip profile to only import pages from slices');
 
 $provider = null;
 
-$provider = Impex::getInstance()->Import->addProvider('test', function (array $slice, array $options, ImpexImportTransformationContext $transformationContext) use (&$provider): bool {
+$provider = Impex::getInstance()->Import->addProvider('ImportPages', function (array $slice, array $options, ImpexImportTransformationContext $transformationContext) use (&$provider): bool {
     foreach (Impex::getInstance()->Import->getProviders() as $_provider) {
+
+
         if ($_provider === $provider) {
             continue;
         }
@@ -19,7 +21,6 @@ $provider = Impex::getInstance()->Import->addProvider('test', function (array $s
             return true;
         }
     }
-
     return false;
 });
 
