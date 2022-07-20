@@ -1,7 +1,6 @@
 <style> 
     text{
         font-size:16px;
-        border-image: radial-gradient(2px 50% ellipse at 2px 50%, #dadada, #dadada 98%, transparent) 45% 0 45% 4;
     } 
     heading1{
         font-size:24px;
@@ -11,7 +10,7 @@
         font-size:20px;
         font-weight: 500;
     }
-    .markdown blockquote {  margin: 0;  padding-left: 1.4rem;  border-left: 4px solid #dadada; }
+
 </style>
 
 [//]: <> (Header)

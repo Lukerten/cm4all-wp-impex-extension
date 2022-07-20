@@ -6,7 +6,9 @@
   "scripts": {
     "wp-env": "scripts/wp-env/wp-env.sh",
     "wp-env:setup": "scripts/wp-env/wp-env-setup.sh",
-    "wp-env:cleanup": "scripts/wp-env/wp-env-cleanup.sh"
+    "wp-env:cleanup": "scripts/wp-env/wp-env-cleanup.sh",
+    "test": "node --test",
+    "test:watcher": "while true; do inotifywait -r -e modify . && node --test; done"
   },
   "prettier": {
     "singleQuote": true,
