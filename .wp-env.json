@@ -2,6 +2,7 @@
   "core": "WordPress/WordPress#6.0",
   "plugins": [
     "https://downloads.wordpress.org/plugin/gutenberg.zip",
+    "https://downloads.wordpress.org/plugin/elementor.3.6.7.zip",
     "./plugins/cm4all-wp-impex",
     "./plugins/cm4all-wp-impex-example",
     "./plugins/cm4all-wp-impex-extension"
