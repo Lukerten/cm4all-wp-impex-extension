@@ -9,7 +9,6 @@ const handlers = {
 
     return [gutenbergASTNode];
   },
-
   column(elementorASTNode, options) {
     const gutenbergASTNode = {type: 'core/columns', attributes: {}};
 
@@ -20,6 +19,7 @@ const handlers = {
 
     return [gutenbergASTNode];
   },
+  heading(elementorASTNode, options) {},
 };
 
 const onUnknownElementorNodeType = (elementorAST) => [];
