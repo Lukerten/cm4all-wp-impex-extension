@@ -13,10 +13,10 @@
     },
     "author": "Luke Brendgen",
     "dependencies": {
+        "@happy-dom/global-registrator": "^6.0.4",
         "@wordpress/block-library": "^7.10.0",
         "@wordpress/blocks": "^11.12.0",
         "global-jsdom": "^8.5.0",
-        "jsdom": "^20.0.0",
         "polyfill-library": "^4.1.1"
     },
     "bugs": {

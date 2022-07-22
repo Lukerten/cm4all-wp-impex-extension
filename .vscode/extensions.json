@@ -11,6 +11,7 @@
     "wayou.vscode-todo-highlight",
     "xdebug.php-debug",
     "timonwong.shellcheck",
-    "formulahendry.vscode-mysql"
+    "formulahendry.vscode-mysql",
+    "Gruntfuggly.todo-tree"
   ]
 }

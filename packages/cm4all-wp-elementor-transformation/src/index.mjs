@@ -1,3 +1,5 @@
+// import '../src/setup-window.mjs';
+
 const handlers = {
   section(elementorASTNode, options) {
     const gutenbergASTNode = {type: 'core/paragraph', attributes: {}};
