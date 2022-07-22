@@ -31,20 +31,30 @@ note that their structure is similar enough that we can probably map almost ever
 
 ## Mappings + Notes
 
-> ### section: </br>
->
-> Are glorified "containers to group widgets.
-> maybe Gutenberg has something akin to this </br>
-> just skip this for now
+<ul>
+  <li> <e> section </e>  <a> — </a> <g> group </g> </li>
+  <li> <e> column </e>  <a> — </a> <g> column </g> </li>
+  <li> <e> inner Section </e>  <a> — </a> <g> paragraph </g> </li>
+  <li> <e> heading </e>  <a> — </a> <g> heading </g> </li>
+  <li> <e> image </e>  <a> — </a> <g> image </g> </li>
+  <li> <e> button </e>  <a> — </a> <g> button </g> </li>
+  <li> <e> icon </e>  <a> — </a> <g> site-logo </g> </li>
+  <li> <e> testimonial </e>  <a> — </a> <g> pullquote </g> </li>
+</ul>
 
-> ### column:
->
-> Another Layout Group dividing the page in parts. </br>
-> column (widget) -> column (block)
+<style>
+  e {
+    font-size:16px;
+    font-weight:700;
+  }
+  a {
+    font-size:16px;
+    font-weight:300;
+    color: orange;
+  }
+  g {
+    font-size:16px;
+    font-weight:700;
+  }
 
-> ### heading:
->
-> need to watch which heading level. </br>
-> heading (widget) -> heading (block)
-
-> ###
+</style>
